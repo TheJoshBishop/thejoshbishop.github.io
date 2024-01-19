@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-image {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book-image.left {
+    margin-right: 20px;
+}
+
+.book-image.right {
+    order: 2;
+    margin-left: 20px;
+}
+
+.book-description {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: #5e808d;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .book-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-image.left, .book-image.right {
+        margin-bottom: 10px;
+        max-width: 50%;
+        max-height: 200px;
+        order: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .book-description {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
