@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    color: white; /* Default text color for night */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 1s;
+}
+
+#time-display {
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #d1d4c7;
+    color: #272727;
+    border-color: #455169;
+    border-style: solid;
+    transition: background-color 1s, color 1s;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Background colors */
+.crickets {
+    background-color: #071024; /* dark blue */
+}
+
+.birds {
+    background-color: #afe5fa; /* light blue */
+    color: black; /* Text color for day */
+}
+
+.midday {
+    background-color: #f5e59d; /* light yellow */
+    color: black; /* Text color for day */
+}
+
+.cicadas {
+    background-color: #eba463; /* light orange */
+    color: black; /* Text color for day */
+}
+
+
+/* Add styles for the button based on time of day */
+.crickets button, .birds button, .midday button, .cicadas button {
+    border: none; /* Example style */
+    color: #000; /* Example text color */
+    /* Add other styles as needed */
+}
+
+/* Specific button styles based on class */
+.crickets button {
+    background-color: #fff;
+    color: #000;
+}
+
+.birds button {
+    background-color: #292520;
+    color: #fff; /* If you need a different text color */
+}
+
+.midday button {
+    background-color: #363636;
+    color: #ffffff; /* If you need a different text color */
+}
+
+.cicadas button {
+    background-color: #292929;
+    color: #ffffff;
+}

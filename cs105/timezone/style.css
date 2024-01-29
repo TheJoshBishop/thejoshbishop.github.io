@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#clocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timezone {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+/* Example colors, you can add more or change them */
+.morning {
+    background-color: #A1C9F4;
+}
+
+.afternoon {
+    background-color: #FAD02E;
+}
+
+.evening {
+    background-color: #F76C5E;
+}
+
+.night {
+    background-color: #2D3047;
+    color: white;
+}
+.local-time {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.timezone:hover.morning {
+    background-color: #B3D4FC; /* Lighter shade for morning */
+}
+
+.timezone:hover.afternoon {
+    background-color: #FCE18A; /* Lighter shade for afternoon */
+}
+
+.timezone:hover.evening {
+    background-color: #FCABAB; /* Lighter shade for evening */
+}
+
+.timezone:hover.night {
+    background-color: #51557E; /* Lighter shade for night */
+}
