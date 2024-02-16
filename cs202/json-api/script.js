@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON('https://api.open-notify.org/astros.json', function(data) {
+    $.getJSON('https://api.open-notify.org/astros.json?callback=?', function(data) {
         $('#number-of-people').text(data['number'] + ' people are in space right now');
         var astronauts = data['people'];
         var astronautsList = '<h2>Who is in space?</h2>';
