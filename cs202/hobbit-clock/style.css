@@ -1,0 +1,57 @@
+@font-face {
+    font-family: lotr;
+    src:url(./lotr.ttf);
+}
+
+body {
+    font-family: lotr;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0eae0;
+    height: 50vh;
+}
+
+.main {
+}
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+#clock {
+    font-size: 72px;
+    margin: 10px;
+}
+
+#currentMeal {
+    font-size: 36px;
+    margin: 10px;
+} 
+
+#nextMeal {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.text-section {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.recipe-button {
+    
+
+}
