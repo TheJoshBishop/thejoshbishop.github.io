@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
     updateClockAndMeal();
     const recipeUrls = [
         'https://www.allrecipes.com/recipe/11020/welsh-cakes/',
-        // Add more recipe URLs here
     ];
 
     recipeUrls.forEach(url => {
@@ -63,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize the page with the correct meal and background
 
 // Regularly update the clock and meal information
-// setInterval(() => updateClockAndMeal(), 1000);
+setInterval(() => updateClockAndMeal(), 1000);
 
 // Listen for 'q' key press to force update to the next meal for testing
 document.addEventListener('keydown', (event) => {
