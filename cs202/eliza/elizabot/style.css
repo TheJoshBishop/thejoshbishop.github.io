@@ -1,0 +1,56 @@
+body {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    font-family: 'Courier New', monospace; /* Monospaced font for the chat effect */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+}
+  
+h3 {
+    color: white;
+}
+
+textarea {
+    background-color: #1d1d1d; /* Dark background */
+    color: #fff; /* White text */
+    border: none;
+    font-family: 'Courier New', monospace;
+    resize: none; /* Prevent resizing */
+    padding: 15px;
+}
+
+input[type="text"] {
+    background-color: #222; /* Darker background for input */
+    color: #fff; /* White text */
+    border: 2px solid #555; /* Slightly lighter border for the input */
+    font-family: 'Courier New', monospace;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #555; /* Lighter background for buttons */
+    color: #fff; /* White text */
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #777; /* Lighter background when hovering */
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    color: #75dfff;
+}
+
+
+td {
+    padding: 10px;
+}
+
+/* Additional styles for other elements as needed */
